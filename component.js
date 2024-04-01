@@ -16,3 +16,8 @@ function createCard(title, content, buttonText, buttonLink) {
 
     return card;
 }
+
+// Example usage: create two cards
+var cardContainer = document.getElementById('card-wrapper');
+cardContainer.appendChild(createCard('Card 1', 'This is the content of Card 1.', 'Go to Page 1', '#'));
+cardContainer.appendChild(createCard('Card 2', 'This is the content of Card 2.', 'Go to Page 2', '#'));
